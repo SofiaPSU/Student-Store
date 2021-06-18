@@ -2,8 +2,6 @@
 
 Submitted by: **Sofia Riley**
 
-Deployed Application (optional): [Student Store Deployed Site](ADD_LINK_HERE)
-
 ### Application Features
 
 #### CORE FEATURES
