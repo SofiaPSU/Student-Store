@@ -26,7 +26,7 @@ router.get("/products/:productId", async (req, res, next)=>{
     }
 })
 //create new product
-/*router.post("/products", async (req, res, next)=>{
+router.post("/products", async (req, res, next)=>{
     try{
         const product = req.body.transaction
         const newProduct = await Store.newProduct(product)
@@ -34,5 +34,5 @@ router.get("/products/:productId", async (req, res, next)=>{
     }catch(err){
         next(err)
     }
-})*/
+})
 module.exports = router

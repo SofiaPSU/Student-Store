@@ -11,7 +11,7 @@ class Store{
         const productId = storage.get("products").find({id: Number(id)}).value()
         return productId
     }
-   /* static async newProduct(product){
+    static async newProduct(product){
         if (!product){
             throw new BadRequestError(`No product was added`)
         }
@@ -27,6 +27,6 @@ class Store{
 
         storage.get("products").push(newProduct).write()
         return newProduct
-    }*/
+    }
 }
 module.exports = Store
