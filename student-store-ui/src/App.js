@@ -1,19 +1,17 @@
 
 import './App.css';
-/*import { BrowserRouter } from "react-router-dom"
+import { BrowserRouter } from "react-router-dom"
 import { Routes } from "react-router"
-import { Route } from "react-router"*/
+import { Route } from "react-router"
 import { useEffect } from "react"
 import axios from "axios"
 import Home from "./Home/Home"
 import { useState } from "react"
-//import Products from "./Products/Products"
 import Navbar from "./NavBar/Navbar"
-//import ProductDetail from "./ProductDetail/ProductDetail"
+import Product from "./Product/Product"
 
 
 function App() {
-  //useEffect function
   var [products, setProducts] = useState([])
   useEffect(() => {
     const onStart = async() => {
@@ -32,10 +30,19 @@ function App() {
   }, [])
 
   return (
+    
     <div className="App">
+    <BrowserRouter>
+    <div className="enclose">
      <Navbar />
-    <Home products={products} />
+     <Routes>
+    <Route path="/" element={<Home products={products} />}/>
+    <Route path="/store/:id" element={<Product />}/>
+    </Routes>
     </div>
+    </BrowserRouter>
+    </div>
+    
   );
 }
 

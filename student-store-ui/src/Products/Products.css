@@ -1,0 +1,26 @@
+.prod-style{
+    width:250px;
+    height:250px;
+    display: inline-grid;
+    grid-template-columns: 200px 200px 200px 200px ;
+    grid-template-rows: 200px 200px 200px 200px;
+    padding: 50px;
+}
+.product-preview img{
+    width:300px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.product-body{
+    color: black;
+    margin: 0 auto;
+}
+.product-name .price h1{
+    color: black;
+    
+    
+}
+.prod{
+    text-decoration: none;
+}

@@ -1,19 +1,15 @@
 
 import "./Home.css"
-//import Products from "../Products/Products"
+import Products from "../Products/Products"
 
 
 export default function Home({ products = [] }) {
   return (
     <div className="Home">
        <div className = "homepg">
+       <h1>Products</h1>
         {products.map((product) => (
-          <div className="products-preview">
-            {product.name}
-            {product.category}
-            <img src={product.image} alt = {product.name}/>
-          
-          </div>
+            <Products product={product} key={product.id}/>
         ))}
        </div>
 
