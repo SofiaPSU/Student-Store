@@ -24,9 +24,9 @@ Submitted by: **Sofia Riley**
 
 ### Walkthrough Video
 
-<a href="https://www.loom.com/share/a2aedba3954644babc56986dd771996b">
+<a href="https://www.loom.com/share/17d424688e4d45eb8b690c0e13fd38fa">
     <p>Student Store - Watch Video</p>
-    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/a2aedba3954644babc56986dd771996b-with-play.gif">
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/17d424688e4d45eb8b690c0e13fd38fa-with-play.gif">
   </a>
 
 ### Reflection
